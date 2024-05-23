@@ -1,0 +1,9 @@
+@media (max-width:1100px) {
+    .thead-info__item--create::before {
+        content: 'создания';
+        position: absolute;
+        right: 20px;
+        top: 1px;
+        margin-right: 13px;
+    }
+  }

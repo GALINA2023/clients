@@ -1,0 +1,282 @@
+@media(max-width:1100px) {
+
+    .table th {
+        padding-bottom: 20px;
+    }
+
+    .thead-info__item--create::before {
+        left: 0;
+        top: 25px;
+    }
+
+    .create__span {
+        top: 12px;
+        left: 60px;
+    }
+
+    .thead-info__item--update::before {
+        left: 0;
+        top: 25px;
+    }
+
+    .update__span {
+        top: 12px;
+        left: 70px;
+    }
+
+    .clients__edit,
+    .clients__delete {
+        margin-right: 0;
+    }
+}
+
+@media(max-width:900px) {
+
+    .clients__actions {
+        display: inline-block;
+    }
+
+    .create__date,
+    .changed__date {
+        margin-right: 0;
+
+    }
+
+    .create__time,
+    .changed__time {
+        position: relative;
+        top: 20px;
+        right: 70px;
+    }
+
+    .clients__fullname {
+        width: 38%;
+    }
+
+    .table td {
+        padding-right: 10px;
+    }
+
+
+
+}
+
+@media (max-width:400px) {
+
+    .header__form {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .logo__img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .header__container {
+        justify-content: center;
+        padding: 8px 0;
+    }
+
+    .clints {
+        padding-top: 70px;
+    }
+
+    .clients__title {
+        font-size: 18px;
+    }
+
+    .modal__content,
+    .main-modal__content {
+        max-width: 315px;
+    }
+
+    .modal__form {
+        max-width: 260px;
+    }
+
+    .contact {
+        max-width: 280px;
+    }
+}
+
+/* 
+@media  (max-width:1200px) {
+    .clients__table {
+        min-width: 1186px; 
+    }
+
+    .clients__wrapper {
+        overflow: auto;
+    }
+
+
+}
+
+@media(max-width:1024px) {
+
+    .clients__table {
+        min-width: auto; 
+    }
+
+    .thead-info {
+        margin-bottom: 25px;
+      
+    }
+
+    .thead-info__item--create {
+        padding-left: 60px;
+        padding-right: 50px;
+    }
+
+    .thead-info__item--create::before {
+        right: 60px;
+        top: 20px;
+    }
+
+    .create__span {
+        top: 20px;
+        right: 60px;
+    }
+
+    .thead-info__item--update {
+            padding-right: 65px;
+    }
+
+    .thead-info__item--update::before {
+        right: 50px;
+        top: 20px;
+    }
+
+    .update__span {
+        top: 20px;
+        right: 50px;
+    }
+
+    .thead-info__item--contacts {
+        padding-left: 0;
+    }
+
+    .clients__fullname {
+        width: calc(25% + 5px);
+    }
+
+}
+
+@media (max-width:1000px) {
+
+    .clients__fullname {
+        width: calc(32% + 5px);
+    }
+    .clients__actions {
+        display: inline-block;
+        width: 15%;
+    }
+
+    .clients__created,
+    .clients__changed {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .thead-info__item--fio {
+        width: 34%;
+       
+        text-align: justify;
+    }
+}
+
+
+
+@media  (max-width:768px) {
+   
+    .clients__wrapper {
+        overflow: auto;
+    }
+
+    .clients__table {
+        width: 100%;
+        min-width: 728px; 
+    }
+    .thead-info__item--id {
+        margin-right:  10px;
+    }
+    .thead-info__item--fio {
+        margin-left: 10px;
+        padding-left: 0;
+    }
+
+    .thead-info__item--create {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .thead-info__item--create::before {
+        right: 10px;
+    }
+
+    .create__span {
+        right: 10px;
+    }
+
+}
+
+
+
+@media (max-width:500px) {
+  .modal__content,
+  .main-modal__content {
+    max-width: 370px;
+  }
+
+  .modal__form {
+    max-width: 310px;
+  }
+
+  .contact {
+    max-width: 310px;
+  }
+
+}
+
+@media (max-width:400px) {
+
+    .header__form {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .logo__img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .header__container{
+        justify-content: center;
+        padding: 8px 0;
+    }
+
+    .clints {
+        padding-top: 70px;
+    }
+
+    .clients__title {
+        font-size: 18px;
+    }
+    .modal__content,
+  .main-modal__content {
+    max-width: 315px;
+  }
+
+  .modal__form {
+    max-width: 260px;
+  }
+
+  .contact {
+    max-width: 280px;
+  }
+
+
+} */
